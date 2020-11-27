@@ -16,7 +16,7 @@ namespace ProNote
 		}
 		void YeniToolStripMenuItemClick(object sender, EventArgs e)
 		{
-			this.Text = "Adsız Note - ProNote";
+			this.Text = "Unnamed - ProNote";
 		}
 		void FarklıKaydetToolStripMenuItemClick(object sender, EventArgs e)
 		{
@@ -27,7 +27,7 @@ namespace ProNote
 		}
 		void MainFormLoad(object sender, EventArgs e)
 		{		
-			saveFileDialog1.Filter = ".txt dosyası(*.txt)|*.txt|Tüm Dosyalar(*.)|*.";
+			saveFileDialog1.Filter = "Text File(*.txt)|*.txt|All Files(*.)|*.";
 		}
 		void AçToolStripMenuItemClick(object sender, EventArgs e)
 		{
@@ -45,7 +45,7 @@ namespace ProNote
 			   		}
 			   		catch
 			   		{
-			   			MessageBox.Show("Hata:Dosya açılamadı. Program bu dosya biçimini desteklemiyor.","Hata",MessageBoxButtons.OK,MessageBoxIcon.Error);
+			   			MessageBox.Show("Error:File load not completed during error. This file is dont supported.","Error",MessageBoxButtons.OK,MessageBoxIcon.Error);
 			   		}
 			   	}
 			}
@@ -78,8 +78,71 @@ namespace ProNote
 			string toLower = richTextBox1.Text;
 			richTextBox1.Text = toLower.ToLower();
 		}
+		
+		void OpenFileDialog1FileOk(object sender, System.ComponentModel.CancelEventArgs e)
+		{
+			
 		}
 		
+		void BackColorToolStripMenuItemClick(object sender, EventArgs e)
+		{
+			colorDialog1.Color = richTextBox1.BackColor;
+			
+			if(colorDialog1.ShowDialog() == System.Windows.Forms.DialogResult.OK && colorDialog1.Color != richTextBox1.SelectionColor)
+			{
+				richTextBox1.BackColor = colorDialog1.Color;
+			}			
+		}
+		
+		void BiçimToolStripMenuItemClick(object sender, EventArgs e)
+		{
+			
+		}
+		
+		void AboutToolStripMenuItemClick(object sender, EventArgs e)
+		{
+			Form1 frm1 = new Form1();
+			frm1.Show();
+		}
+		
+		void HelpToolStripMenuItemClick(object sender, EventArgs e)
+		{
+			Form2 frm2 = new Form2();
+			frm2.Show();
+		}
+		
+		
+			  
+		
+		
+		
+		void KesToolStripMenuItemClick(object sender, EventArgs e)
+		{
+			
+		}
+		
+		void KopyalaToolStripMenuItemClick(object sender, EventArgs e)
+		{
+			
+		}
+		
+		void YapıştırToolStripMenuItemClick(object sender, EventArgs e)
+		{
+			
+		}
+		
+		void MenuSettingsToolStripMenuItemClick(object sender, EventArgs e)
+		{
+			colorDialog1.Color = richTextBox1.BackColor;
+			
+			if(colorDialog1.ShowDialog() == System.Windows.Forms.DialogResult.OK && colorDialog1.Color != richTextBox1.SelectionColor)
+			{
+				 menuStrip1.BackColor = colorDialog1.Color;
+			}	
+		}
+}
+}
+		
+		
 
-	}
 
