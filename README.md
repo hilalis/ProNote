@@ -8,4 +8,4 @@ Release notes:
  - Added "About".
  - Style settings in "Style" item.
  - Small bug fix.
- -Added "Help".
+ - Added "Help".
