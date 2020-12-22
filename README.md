@@ -9,3 +9,5 @@ Release notes:
  - Style settings in "Style" item.
  - Small bug fix.
  - Added "Help".
+ -------------------------
+ I dont apply license to this project, because, this world needs freedom software, with no limits with bad licenses! 
