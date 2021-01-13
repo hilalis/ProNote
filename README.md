@@ -9,5 +9,8 @@ Release notes:
  - Style settings in "Style" item.
  - Small bug fix.
  - Added "Help".
+ ## v2.1.0
+ - Added "Update"
+ IMPORTANT NOTE: You need 1 bytes interent for use this feature.
  -------------------------
- I dont apply license to this project, because, this world needs freedom software, with no limits with bad licenses! 
+ I dont apply license to this project, because, this world needs freedom software, with no limits and with no bad licenses! 
