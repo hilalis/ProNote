@@ -60,6 +60,7 @@ namespace ProNote
 			this.açToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
 			this.farklıKaydetToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
 			this.openStyleToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+			this.codingModeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
 			this.biçimToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
 			this.convertToCapitalToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
 			this.convertToToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -101,7 +102,8 @@ namespace ProNote
 									this.yeniToolStripMenuItem,
 									this.açToolStripMenuItem,
 									this.farklıKaydetToolStripMenuItem,
-									this.openStyleToolStripMenuItem});
+									this.openStyleToolStripMenuItem,
+									this.codingModeToolStripMenuItem});
 			this.dosyaToolStripMenuItem.Name = "dosyaToolStripMenuItem";
 			this.dosyaToolStripMenuItem.Size = new System.Drawing.Size(37, 20);
 			this.dosyaToolStripMenuItem.Text = "File";
@@ -109,30 +111,37 @@ namespace ProNote
 			// yeniToolStripMenuItem
 			// 
 			this.yeniToolStripMenuItem.Name = "yeniToolStripMenuItem";
-			this.yeniToolStripMenuItem.Size = new System.Drawing.Size(131, 22);
+			this.yeniToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
 			this.yeniToolStripMenuItem.Text = "New";
 			this.yeniToolStripMenuItem.Click += new System.EventHandler(this.YeniToolStripMenuItemClick);
 			// 
 			// açToolStripMenuItem
 			// 
 			this.açToolStripMenuItem.Name = "açToolStripMenuItem";
-			this.açToolStripMenuItem.Size = new System.Drawing.Size(131, 22);
+			this.açToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
 			this.açToolStripMenuItem.Text = "Open";
 			this.açToolStripMenuItem.Click += new System.EventHandler(this.AçToolStripMenuItemClick);
 			// 
 			// farklıKaydetToolStripMenuItem
 			// 
 			this.farklıKaydetToolStripMenuItem.Name = "farklıKaydetToolStripMenuItem";
-			this.farklıKaydetToolStripMenuItem.Size = new System.Drawing.Size(131, 22);
+			this.farklıKaydetToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
 			this.farklıKaydetToolStripMenuItem.Text = "Save";
 			this.farklıKaydetToolStripMenuItem.Click += new System.EventHandler(this.FarklıKaydetToolStripMenuItemClick);
 			// 
 			// openStyleToolStripMenuItem
 			// 
 			this.openStyleToolStripMenuItem.Name = "openStyleToolStripMenuItem";
-			this.openStyleToolStripMenuItem.Size = new System.Drawing.Size(131, 22);
+			this.openStyleToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
 			this.openStyleToolStripMenuItem.Text = "Open Style";
 			this.openStyleToolStripMenuItem.Click += new System.EventHandler(this.OpenStyleToolStripMenuItemClick);
+			// 
+			// codingModeToolStripMenuItem
+			// 
+			this.codingModeToolStripMenuItem.Name = "codingModeToolStripMenuItem";
+			this.codingModeToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+			this.codingModeToolStripMenuItem.Text = "Coding Mode";
+			this.codingModeToolStripMenuItem.Click += new System.EventHandler(this.CodingModeToolStripMenuItemClick);
 			// 
 			// biçimToolStripMenuItem
 			// 
@@ -248,6 +257,7 @@ namespace ProNote
 			this.ResumeLayout(false);
 			this.PerformLayout();
 		}
+		private System.Windows.Forms.ToolStripMenuItem codingModeToolStripMenuItem;
 		private System.Windows.Forms.ToolStripMenuItem openStyleToolStripMenuItem;
 		private System.Windows.Forms.ColorDialog colorDialog3;
 		private System.Windows.Forms.ToolStripMenuItem menuSettingsToolStripMenuItem;

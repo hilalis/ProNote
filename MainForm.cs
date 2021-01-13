@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Drawing;
 using System.Windows.Forms;
+using System.IO;
 
 namespace ProNote
 {
@@ -174,6 +175,29 @@ namespace ProNote
 		
 		void OpenFileDialog2FileOk(object sender, System.ComponentModel.CancelEventArgs e)
 		{
+			
+		}
+		
+		void PrinToolStripMenuItemClick(object sender, EventArgs e)
+		{
+			
+		}
+		
+		void CodingModeToolStripMenuItemClick(object sender, EventArgs e)
+		{
+richTextBox1.BackColor = Color.Black;
+richTextBox1.ForeColor = Color.MediumOrchid; 
+menuStrip1.BackColor = Color.MediumOrchid;
+		}
+		
+		void AddAToolStripMenuItemClick(object sender, EventArgs e)
+		{
+			
+		}
+		
+		void UTF8ToolForLanguagesToolStripMenuItemClick(object sender, EventArgs e)
+		{
+
 			
 		}
 }

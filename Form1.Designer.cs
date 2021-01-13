@@ -97,7 +97,7 @@ namespace ProNote
 			// 
 			// label3
 			// 
-			this.label3.Location = new System.Drawing.Point(370, 178);
+			this.label3.Location = new System.Drawing.Point(361, 176);
 			this.label3.Name = "label3";
 			this.label3.Size = new System.Drawing.Size(100, 107);
 			this.label3.TabIndex = 5;
